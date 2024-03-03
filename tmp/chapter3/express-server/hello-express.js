@@ -10,3 +10,6 @@ app.get("/",(req,res)=>{
 app.listen(port,()=>{
     console.log("start express server port : "+port);
 });
+
+// npm i express
+// .gitignore add node_modules ( 소스코드만 깃허브에 올라가게 )
